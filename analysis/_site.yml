@@ -1,7 +1,7 @@
-name: "QBio_workflowr_tutorial"
+name: QBio_workflowr_tutorial
 output_dir: ../docs
 navbar:
-  title: "QBio_workflowr_tutorial"
+  title: QBio_workflowr_tutorial
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/mgpaletta/workflowr_QBio_tutorial
 output:
   workflowr::wflow_html:
     toc: yes
